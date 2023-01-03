@@ -28,9 +28,7 @@ export default function Counter()
 
     function reset()
     {
-        const newValue = 0;
-        console.log(50 + -3);
-        setCount({...counterState, count : newValue, resetClicked: true});
+        setCount({...counterState, count : 0, resetClicked: true});
         
     }
 
